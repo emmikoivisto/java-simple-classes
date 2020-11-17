@@ -14,6 +14,7 @@ public class WaterBottle {
         return this.volume;
     }
 
+    // could rather put it as 'void' as you don't need to return anything. Void just changes
     public int clearVolume() {
         return this.volume = 0;
     }
